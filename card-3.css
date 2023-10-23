@@ -1,0 +1,155 @@
+:root {
+  --product-white: #fff;
+  --product-red: #ee1212;
+  --product-green: #3b990f;
+  --product-gray: #808080;
+  --product-brown: #413e01;
+  --product-yellow: #fffa87;
+  --background-gray: #ecebeb;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.card-3 {
+  width: 370px;
+  height: 600px;
+  position: relative;
+  padding: 4px;
+  background-color: var(--product-white);
+}
+
+.bestseller-badge3 {
+  background-color: var(--product-yellow);
+  color: var(--product-brown);
+  font-weight: bold;
+  font-size: 14px;
+  padding: 4px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+
+.discount-badge3 {
+  background-color: var(--product-red);
+  color: var(--product-white);
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.product-image-container3 {
+  width: 300px;
+}
+
+.product-title3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.product-description3 {
+  margin-bottom: 4px;
+  margin-top: 0;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.product-more-info3 {
+  color: var(--product-gray);
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.product-shipping-label3 {
+  color: var(--product-red);
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid var(--product-red);
+  background-color: var(--product-white);
+  border-radius: 6px;
+}
+
+.product-stock-label3 {
+  color: var(--product-green);
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: underline;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.product-price-label3 {
+  font-weight: bold;
+}
+
+.product-price-container3 {
+  text-align: left;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.product-price3 {
+  color: var(--product-gray);
+  text-decoration: line-through;
+}
+
+.product-discount-price3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card-button3 {
+  position: relative;
+  margin-top: 30px;
+}
+
+.add-to-cart-button3 {
+  background-color: var(--product-red);
+  color: var(--product-white);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px;
+  width: 70%;
+  text-align: center;
+  border-radius: 30px;
+  position: absolute;
+  right: 50px;
+}
+
+.product-info-container {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.product-details-container3 {
+  padding: 8px;
+  background-color: var(--background-gray);
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.product-price-container3 {
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.img3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 30px;
+}

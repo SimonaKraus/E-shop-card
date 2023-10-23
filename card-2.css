@@ -1,0 +1,130 @@
+:root {
+  --product-backgroung-red: red;
+  --product-background-light-grey: lightgrey;
+  --product-baackground-dakrgreen: darkgreen;
+  --product-colo-white: white;
+  --product-color-black: black;
+  --product-color-green: green;
+  --product-color-red: red;
+  --product-color-grey: grey;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.card-2 {
+  width: 370px;
+  height: 600px;
+  position: relative;
+  padding: 4px;
+  background-color: var(--product-colo-white);
+}
+
+.offer-container2 {
+  background-color: var(--product-backgroung-red);
+  position: absolute;
+  top: 18px;
+  padding: 4px;
+}
+
+.offer2 {
+  color: var(--product-colo-white);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.img-container2 {
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.img2 {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.bike-title {
+  color: var(--product-color-black);
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 4px;
+  margin-bottom: 10px;
+}
+
+.stock {
+  font-size: 16px;
+  color: var(--product-color-green);
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+.product-price-container2 {
+  background-color: var(--product-background-light-grey);
+  margin-top: 10px;
+  height: 60px;
+}
+
+.product-price2 {
+  color: var(--product-color-red);
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.vat {
+  color: var(--product-color-black);
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.add-button-container2 {
+  background-color: var(--product-baackground-dakrgreen);
+  height: 50px;
+  width: 150px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.add-button2 {
+  color: var(--product-colo-white);
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  top: 12px;
+}
+
+.service-container2 {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.service2 {
+  color: var(--product-backgroung-red);
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.service-price2 {
+  color: var(--product-color-red);
+  font-size: 12px;
+  position: absolute;
+  right: 8px;
+  bottom: 4px;
+}

@@ -1,0 +1,183 @@
+:root {
+  --product-white: #fff;
+  --product-red: #ee1212;
+  --background-green: #dfe6da;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.content {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 90%;
+  }
+}
+
+.hero-section {
+  background-image: url(hero-section-img.png);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 8px;
+  padding: 32px;
+  position: relative;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+.hero-text {
+  color: var(--product-white);
+  position: absolute;
+  top: 50px;
+  margin-left: 20px;
+  line-height: 40px;
+}
+
+.hero-button {
+  background-color: var(--product-red);
+  color: var(--product-white);
+  border-radius: 8px;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+.sale {
+  background-color: var(--product-red);
+  color: var(--product-white);
+  font-size: 20px;
+  font-weight: bold;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 30px;
+  position: absolute;
+  right: 50px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+  .sale {
+    position: absolute;
+    top: 90px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 20px;
+  }
+  .sale {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding-top: 8px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sale {
+    display: none;
+  }
+}
+
+.promo-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.promo-card-1 {
+  height: 250px;
+  width: 300px;
+  border-radius: 8px;
+  background-image: url(vysavac.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.promo-text {
+  position: absolute;
+  bottom: 40px;
+  line-height: 25px;
+}
+
+.promo-title {
+  color: var(--product-white);
+  font-size: 16px;
+  margin-left: 10px;
+  width: 200px;
+}
+
+.promo-button {
+  color: var(--product-white);
+  background-color: var(--product-red);
+  border-radius: 8px;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  padding-top: 2px;
+  position: absolute;
+  left: 10px;
+}
+
+.promo-card-2 {
+  height: 250px;
+  width: 300px;
+  border-radius: 8px;
+  background-image: url(mobil.png);
+  background-position: center;
+  background-size: cover;
+  color: var(--product-white);
+  position: relative;
+}
+
+.promo-card-3 {
+  height: 250px;
+  width: 300px;
+  border-radius: 8px;
+  background-image: url(clothes.png);
+  background-position: center;
+  background-size: cover;
+  color: var(--product-white);
+  position: relative;
+}
+
+.card-section {
+  background-color: var(--background-green);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+}
